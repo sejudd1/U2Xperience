@@ -1,0 +1,1624 @@
+ 
+
+.body {
+	background-color: black;
+
+
+}
+
+.container {
+	background-color: black;
+	font-family: 'Raleway', sans-serif;
+}
+
+.headerContainer {
+    background-color: black;
+
+}
+
+.logo img {
+	margin-top: 10px;
+	margin-left: 400px;
+}
+
+.logo h4 {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+
+}
+
+/*bootStrap NAV BAR*/
+
+#headerNav {
+	height: 82px;
+	padding-top: 25px;
+	text-align: left;
+	background-color: black;
+}
+
+.navHomeSocialIcons {
+	text-align: right;
+    margin-top: 10px;
+}
+
+nav a:hover {
+	opacity: .3;
+	filter:alpha(opacity=30);
+}
+
+/* visited link */
+#headerNav a:visited {
+    color: #000000;
+}
+
+.navbar-header a{
+	opacity: .3;
+	filter:alpha(opacity=30);
+	font-size: 20px;
+}
+
+.nav li > a {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.nav>li>a>img {
+	height: 40px;
+	width: 40px;
+}
+
+
+
+.nav navbar-nav a{
+	opacity: .6;
+	filter:alpha(opacity=60);
+
+}
+
+/*END BOOTSTRAP NAV BAR*/
+
+/*socialIcons on Header*/
+
+#headerNav {
+	padding-right: 10px;
+	text-align: right;
+}
+
+#headerNav a:hover {
+	opacity: .5;
+	filter:alpha(opacity=50);
+
+}
+
+#headerNav img {
+	width: 38px;
+}
+
+.iconContainer a:hover {
+	opacity: .5;
+	filter:alpha(opacity=50);
+
+}
+
+/*End Social Icons on Header*/
+
+
+.float-50 {
+	float:left;
+	width: 50%;
+	height: 191px;
+}
+
+/*Begin U2Xpericience logo and social icons*/
+
+.float-50 h1 {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	background-color: black;
+	padding-left: 10px;
+	font-size: 48px;
+}
+
+.float-50 #logo {
+	padding-left: 10px;
+
+}
+
+.float-50 h4 {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	padding-left: 5px;
+
+}
+
+.float-50 span {
+	color: rgb(131,131,131);
+}
+
+.float-50 h1 a {
+	text-decoration: none;
+	color: white;
+	background-color: black;
+}
+
+.float-50 h1 a:hover {
+	/*opacity: .7;
+	filter:alpha(opacity=70);*/
+	color: rgb(131,131,131);
+
+}
+
+/*flexslider*/
+
+.flexslider {
+	background:black;
+	border:none;
+	box-shadow:none;
+}
+
+.flexslider .slides {
+	margin-left: auto; 
+	margin-right: auto;
+	width: 100%;
+	height: 100%;
+	background:black;
+	border:none;
+	box-shadow:none;
+	
+
+}
+
+/*flexslider*/
+
+/*Home Social Icons Container*/
+
+.iconContainer #homeSocialIcons {
+	text-align: center;
+  	background-color: rgb(16,16,16);
+  	height: 50px;
+  	padding-top: 5px;
+}
+
+#homeSocialIcons img {
+	width: 38px;
+}
+
+/*AboutShows Container*/
+
+.aboutShowsContainer {
+	background: rgb(16,16,16);
+	color: white;
+	height: 661px;
+}
+
+
+.aboutShowsContainer .aboutCol-2-3 h3 {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	background-color: rgb(16,16,16);
+	padding-left: 10px;
+	font-size: 38px;
+
+}
+
+.aboutShowsContainer span {
+	color: rgb(131,131,131);
+
+}
+
+.aboutCol-2-3 {
+	float: left;
+	width: 66.66%;
+	padding-left: 10px;
+}
+
+
+.aboutCol-2-3 p {
+	font-size: 18px;
+}
+
+.showsCol-1-3 {
+	/*padding-left: 220px;*/
+	width: 33.33%;
+	float: left;
+	display: inline-block;
+}
+
+.showsCol-1-3 h3 {
+	color: white;
+	font-size: 38px;
+	padding-left: 10px;
+
+}
+
+.showsCol-1-3 a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+
+}
+
+.showsCol-1-3 a:hover {
+	opacity: .5;
+	filter:alpha(opacity=50);
+	text-decoration: none;
+	color: gray;
+
+}
+
+.showsCol-1-3 p {
+	font-size: 18px;
+}
+
+.grid:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*End AboutShows Container*/
+
+.iconMidContainer #homeMidSocialIcons {
+	text-align: center;
+  	background-color: rgb(16,16,16);
+  	width: 100%;
+  	height: 80px;
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+
+}
+
+
+#homeMidSocialIcons img {
+	width: 38px;
+
+}
+
+.iconMidContainer a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+
+}
+
+.iconMidContainer a:hover {
+	opacity: .5;
+	filter:alpha(opacity=50);
+	text-decoration: none;
+	color: gray;
+
+}
+
+/*Start Review Container*/
+.reviewContainer {
+	background-color: rgb(16,16,16);
+	height: 300px;
+}
+
+
+.reviewContainer h3 {
+	color: white;
+	font-size: 38px;
+	padding-left: 10px;
+
+}
+
+.reviewContainer p{
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-style: italic;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+/*End Review Container*/
+
+/*Begin Connect Container*/
+
+.connectContainer {
+	width: 100%; 
+	background-image: url("images/U2X-2015TourLogo-SML.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*min-height:480px;*/
+	height: 481px;
+	margin:0 auto;
+	padding-right: 0px;
+    padding-left: 0px;
+}
+
+.float-50 {
+	float: left;
+	width: 50%;
+}
+
+.connectContainer h3{
+	font-size: 38px;
+}
+
+.connectContainer p a {
+	color: black;
+	text-decoration: none;
+
+}
+
+.connectContainer p a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.connectContainer #booking {
+    width: 95%;
+    height: 441px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 1px -1px 1px #888888;
+
+}
+
+.connectContainer #booking p {
+	font-size: 18px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.connectContainer #booking a:hover {
+	opacity: .5;
+	filter:alpha(opacity=50);
+
+}
+
+#socialIcons {
+    height: 441px;
+    width: 95%;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-left: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 1px -1px 1px #888888;
+
+}
+
+#socialIcons img {
+	width: 38px;
+}
+
+#socialIcons a:hover {
+	opacity: .5;
+	filter:alpha(opacity=50);
+
+}
+
+#socialIcons p {
+	font-size: 18px;
+}
+
+
+.clear {
+	padding-top: 10px;
+}
+
+.mc-field-group {
+	padding-top: 10px;
+}
+
+.mc-field-group #mce-EMAIL {
+	margin-left: 5px;
+}
+
+.mc-field-group input {
+	margin-left: 35px;
+
+}
+
+
+/*End Connect Container*/
+
+/*Begin Watch Container*/
+
+.videoContainer {
+	margin-top: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: white;
+	height: 841px;
+	
+}
+
+.float-50 {
+	float: left;
+	width: 50%;
+}
+
+.youtube h3 {
+	font-size: 38px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+.youtube {
+	text-align: center;
+	width: 1110px;
+	height: 100%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background-color: white;
+	padding-bottom: 50px;
+}
+
+/*End Watch Container*/
+
+/*Begin SoundCloud Container*/
+
+.playerContainer {
+	background: rgb(16,16,16);
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 550px;
+}
+
+.playerContainer h3 {
+
+	color: white;
+	font-size: 38px;
+	padding-left: 10px;
+}
+
+/*.playerContainer .panel {
+		border: none;
+}
+
+.playerContainer .poll {
+	
+	height: 525px;
+}
+
+.playerContainer .col-md-4 {
+	width: 100%;
+}
+
+.playerContainer .panel-heading {
+
+	background-color: rgb(16,16,16);
+}
+
+.poll .col-mid-4 {
+	width: 100%;
+	height: 520px;
+}*/
+
+/*End SoundCloud Container*/
+
+/*Begin Shows Container*/
+
+.showsTableContainer {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 50px;
+	color: white;
+
+}
+
+@media(min-width: 668px){
+	.showsTableContainer {
+		height: 100%;
+	}	
+}
+
+.showsTableContainer h3 {
+	color: white;
+	font-size: 38px;
+	padding-left: 10px;
+
+}
+
+.showsTableContainer span {
+	color: gray;
+}
+
+.showsTableContainer th {
+	font-style: bold;
+	font-size: 20px;
+}
+
+.showsTableContainer td a {
+	color: white;
+	text-decoration: none;
+}
+
+.showsTableContainer td a:hover {
+	opacity: .3;
+	filter:alpha(opacity=30);
+	text-decoration: none;
+
+}
+
+.showsTableContainer td a:visited {
+	color: white;
+	text-decoration: none;
+
+}
+/*End Shows Container*/
+
+
+/*Begin Photo Container*/
+
+.photoContainer {
+	background-color: white;
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+
+}
+
+
+.photoContainer .float-50 {
+	float: left;
+	width: 45%;
+	height: 281px;
+}
+
+.photoContainer h3 {
+	font-size: 38px;
+	padding-left: 10px;
+	color: black;
+}
+
+.photoContainer .clearfix {
+	height: 280px;
+	width: 100%;
+}
+
+
+.photoContainer .clearfix .float-50 {
+	height: 281px;
+	margin-left: 10px;
+}
+
+.photoContainer #band img {
+    line-height: 0;
+
+}
+
+
+.fader {
+        /* Giving equal sizes to each element */
+        width:    485px;
+        height:   260px;
+
+        /*width: 100%;*/
+        /*height: 100%;*/
+        
+        /* Positioning elements in lines */
+        display:  inline-block;
+        
+        /* This is necessary for position:absolute to work as desired */
+        position: relative;
+        
+        /* Preventing zoomed images to grow outside their elements */
+        overflow: hidden; 
+}
+
+.fader #band {
+	margin-left: 10px;
+}
+
+.fader img {
+            /* Stretching the images to fill whole elements */
+            width:       100%;
+            height:      100%;
+        
+            /* Preventing blank space below the image */
+            line-height: 0;
+    
+            /* A one-second transition was to disturbing for me */
+            -webkit-transition: all 0.3s ease;
+            -moz-transition:    all 0.3s ease;
+            -o-transition:      all 0.3s ease;
+            -ms-transition:     all 0.3s ease;
+            transition:         all 0.3s ease; 
+}
+    
+.fader img:hover {
+                /* Making images appear bigger and transparent on mouseover */
+                opacity: 0.5;
+                width:   120%;
+                height:  120%; 
+
+}
+
+.fader img:click {
+	width: 200%;
+	height: 200%;
+
+
+}
+
+
+
+
+
+/*End Photo Container*/
+
+/*Start FOOTER*/
+
+
+.footerContainer {
+	background-color: black;
+}
+
+.footerlogo h1 {
+	font-size: 38px;
+}
+
+.footerlogo h1 a {
+	color: rgb(131,131,131);
+
+}
+
+#footerNav {
+    height: 82px;
+    padding-top: 25px;
+    padding-right: 10px;
+    text-align: right;
+
+}
+
+#footerNav a {
+	color: black;
+	text-decoration: none;
+}
+
+#footerNav a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+#footerNav img {
+	width: 38px;
+
+}
+
+#footerNav img:hover {
+	opacity: .5;
+	filter:alpha(opacity=50);
+
+}
+
+#footerNav img:visited {
+    color: #000000;
+}
+
+.footerbar p {
+	color: white;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+.footerbar a {
+	color: white;
+	text-decoration: none;
+
+}
+
+.footerbar a:hover {
+	opacity: .3;
+	filter:alpha(opacity=30);
+	text-decoration: none;
+
+}
+
+.footerbar a:visited {
+	color: gray;
+	text-decoration: none;
+
+}
+
+
+/*End Footer*/
+
+/*CLEARFIX*/
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+     
+}
+
+
+/*CLEARFIX !!*/
+
+/*Start u2xshows Page*/
+
+.showsTableContainer {
+	width: 100%;
+	height:100%;
+	color: white;
+	
+}
+
+.showsTableContainer h2 {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+
+}
+
+.showsTableContainer span {
+	color: gray;
+}
+
+.showsTableContainer th {
+	font-style: bold;
+	font-size: 20px;
+}
+
+.showsTableContainer td a {
+	color: white;
+	text-decoration: none;
+}
+
+.showsTableContainer td a:hover {
+	opacity: .3;
+	filter:alpha(opacity=30);
+	text-decoration: none;
+
+}
+
+.showsTableContainer td a:visited {
+	color: white;
+	text-decoration: none;
+
+}
+/*End Shows Page*/
+
+/*Start Contact Page*/
+
+.contactTableContainer {
+	background-color: white;
+	width: 100%;
+	height: 351px;
+
+}
+
+.contactTableContainer th {
+	font-size: 20px;
+}
+
+.contactTableContainer p {
+	font-size: 20px;
+
+}
+
+.contactTableContainer td a {
+	text-decoration: none;
+	color: black;
+}
+
+.contactTableContainer a:hover {
+	opacity: .3;
+	filter:alpha(opacity=30);
+	text-decoration: none;
+
+}
+
+.contactTableContainer a:visited {
+	text-decoration: none;
+	
+}
+
+.table thead {
+		background-color: rgb(131,131,131);
+}
+
+/*Start About Page*/
+
+.aboutContainer {
+	background-image: url("images/C&Kblackandwhite.jpg");
+	width: 100%;
+	height: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+    
+	
+}
+
+
+
+/*End About Page*/
+
+
+
+
+@media all and (max-width: 1050px) {
+
+	.aboutShowsContainer {
+		width: 100%;
+		height: 761px;
+		float: none;
+
+	}
+
+	.connectContainer {
+		width: 100%; 
+		background-image: url("images/U2X-2015TourLogo-SML.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		min-height:500px;
+		height: 100%;
+		margin:0 auto;
+		padding-right: 0px;
+	    padding-left: 0px;
+	}
+
+	.connectContainer #booking {
+		height: 450px;
+	}
+
+	#socialIcons {
+		height: 450px;
+
+	}
+
+	#mc_embed_signup {
+		height: 450px;
+
+	}
+
+	.videoContainer {
+		text-align: center;
+	}
+
+	.youtube {
+		width: 900px;
+	}
+
+	.photoContainer {
+		height: 1823px;
+	}
+
+	.photoContainer .float-50 {
+		float: none;
+		width: 100%;
+		text-align: center;
+
+	}
+
+	
+
+
+}
+
+
+@media all and (max-width: 800px) {
+
+	.logo img {
+	    margin-top: 10px;
+	    margin-left: 10px;
+	}
+
+	.float-50 {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	/*#headerNav {
+		text-align: center;
+	}*/
+
+	.container-fluid {
+		text-align: center;
+	}
+
+	.aboutShowsContainer {
+		width: 100%;
+		height: 901px;
+		float: none;
+
+	}
+
+	.aboutShowsContainer .aboutCol-2-3 .showsCol-1-3 {
+		height: 321px;
+		margin-top: 410px;
+	}
+
+	.about {
+		width: 100%;
+		height: 481px;
+		float: none;
+		text-align: left;
+
+	}
+
+	.shows {
+		float: none;
+		text-align: left;
+		width: 100%;
+		height: 100%;
+		padding-left: 0px;
+		background-color: rgb(16,16,16);
+	}
+
+	.shows h3 {
+		float: none;
+		text-align: left;
+		width: 100%;
+		padding-left: 10px;
+
+	}
+
+	.shows p {
+		float: none;
+		text-align: left;
+		width: 100%;
+		padding-left: 10px;
+
+	}
+
+	.connectContainer {
+		width: 100%; 
+		height: 820px;
+		background-image: url("images/U2X-2015TourLogo-SML.jpg");
+		background-repeat: no-repeat;
+		background-size: 750%;
+		margin:0 auto;
+		padding-right: 0px;
+	    padding-left: 0px;
+	}
+
+	#socialIcons {
+		height: 370px;
+	}
+
+	#socialIcons h3 {
+		padding-top: 20px;
+	}
+
+	.connectContainer #booking {
+		width: 95%;
+		height: 370px;
+		padding-left: 10px;
+		margin-left: 20px;
+		margin-top: 280px;
+  	
+	}
+
+	#booking h3 {
+		padding-top: 10px;
+	}
+
+	.videoContainer {
+		float: none;
+		display: block;
+		margin-top: 0px;
+		padding-left: 20px;
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 30px; height: 760px; overflow: hidden;
+		width: 100%;
+		height: 960px;
+	}
+
+	.videoContainer iframe,
+	.videoContainer object,
+	.videoContainer embed {
+		/*position: absolute;*/
+		top: 10px;
+		left: 0;
+		width:100%;
+	}
+
+	.youtube {
+		float: none;
+		display: block;
+		text-align: center;
+		width: 100%;
+		margin: auto;
+		margin-bottom: 40px;	
+		
+	}
+
+	.photoContainer {
+		height: 1823px;
+	}
+
+	
+
+	.photoContainer .float-50 {
+		float: none;
+		width: 100%;
+
+	}
+
+	#footerNav {
+		text-align: center;
+	}
+
+	.aboutContainer {
+		height: 960px;
+	}
+
+	
+}
+
+
+/*Start @media css 600px*/
+
+@media all and (max-width: 600px) {
+
+	.float-50 {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	/*#headerNav {
+		text-align: center;
+	}*/
+
+	
+
+	.float-50 #socialIcons{
+		float: none;
+		text-align: center;
+		width: 100%;
+
+	}
+
+	#homeMidSocialIcons {
+		margin-top: 50px;
+	}
+
+	.container-fluid {
+		text-align: center;
+	}
+
+	.aboutShowsContainer {
+		width: 100%;
+		height: 892px;
+		margin: 0 auto;
+	}
+
+	.about {
+		height: 100%;
+		width: 100%;
+		padding-bottom: 20px;
+		padding-right: 10px;
+		background-color: rgb(16,16,16);
+	}
+
+	.aboutShowsContainer .aboutCol-2-3 .showsCol-1-3 {
+		float: none;
+		text-align: left;
+		width: 100%;
+		height: 321px;
+		margin-top: 510px;
+		padding-left: 10px;
+		background-color: rgb(16,16,16);
+	}
+
+	/*.shows {
+		padding-top: 10px;
+	}*/
+
+	/*.shows h3 {
+		float: none;
+		text-align: left;
+		width: 100%;
+		padding-left: 0px;
+		padding-top: 17px;
+		margin: 0 auto;
+
+	}*/
+
+	/*.shows p {
+		float: none;
+		text-align: left;
+		width: 100%;
+		padding-left: 0px;
+		margin: 0 auto;
+
+	}*/
+
+	.reviewContainer {
+		margin: 0 auto;
+		padding-bottom: 10px;
+		float: none;
+		text-align: left;
+		width: 100%;
+		height: 376px;
+		
+
+	}
+
+	.reviewContainer h3 {
+		margin: 0 auto;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		float: none;
+		text-align: left;
+		width: 100%;
+
+	}
+
+	.reviewContainer p {
+		margin: 0 auto;
+		padding-bottom: 10px;
+		float: none;
+		text-align: left;
+		width: 100%;
+	}
+
+	.connectContainer {
+		width: 100%;
+		margin: 0 auto;
+		padding-left: 10px;
+		padding-right: 10px;
+		background-size: 690%;
+	}
+
+	#socialIcons {
+		width: 100%;
+		height: 440px;
+		margin: 0 auto;
+		padding-left: 10px;
+		padding-right: 10px;
+
+	}
+
+	#socialIcons h2 {
+		text-align: center;
+
+	}
+
+
+	.connectContainer #booking {
+		width: 100%;
+		height: 340px;
+		margin-top: 340px;
+		margin-left: 0px;
+		margin-right: 10px;
+		padding-left: 0px;
+		padding-right: 0px;
+		font-size: 18px;
+
+	}
+
+	.booking a:hover {
+		opacity: .5;
+		filter:alpha(opacity=50);
+		text-decoration: none;
+
+	}
+
+
+	.videoContainer {
+		float: none;
+		display: block;
+		margin-top: 15px;
+		padding-left: 20px;
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 30px; height: 760px; overflow: hidden;
+		width: 100%;
+		height: 960px;
+	}
+
+	.videoContainer iframe,
+	.videoContainer object,
+	.videoContainer embed {
+		/*position: absolute;*/
+		top: 10px;
+		left: 0;
+		width:100%;
+	}
+
+	.youtube {
+		float: none;
+		display: block;
+		text-align: center;
+		width: 100%;
+		margin: auto;
+		margin-bottom: 40px;	
+		
+	}
+
+	.playerContainer {
+		margin-top: 20px;
+		background-color: rgb(16,16,16);
+	}
+
+	#footerNav {
+		text-align: center;
+	}
+
+	form {
+		text-align: left;
+	}
+
+	.aboutContainer {
+		height: 1160px;
+	}
+
+}
+
+
+@media all and (max-width: 500px) {
+
+	.aboutShowsContainer .aboutCol-2-3 .showsCol-1-3 {
+		float: none;
+		text-align: left;
+		width: 100%;
+		height: 321px;
+		margin-top: 670px;
+		padding-left: 10px;
+		background-color: rgb(16,16,16);
+	}
+
+	/*.iconMidContainer #homeMidSocialIcons {
+		margin-top: 230px;
+	}*/
+
+	
+	.photoContainer {
+		background-color: white;
+		width: 100%;
+		height: 1268px;
+		margin-top: 75px;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 50px;
+
+	}
+
+
+	.photoContainer .float-50 {
+		float: none;
+		width: 100%;
+
+	}
+
+	.photoContainer .clearfixCarl .float-50 {
+		padding-right: 10px;
+		width: 100%;
+		height: 200px;
+
+	}
+
+	.photoContainer .clearfix .float-50 {
+		padding-right: 10px;
+		width: 100%;
+		height: 200px;
+
+	}
+
+	.photoContainer #band img{
+		width: 100%;
+		
+		
+	}
+
+
+	.photoContainer h3 {
+		font-size: 38px;
+		padding-left: 10px;
+	}
+
+
+	.fader {
+	        /* Giving equal sizes to each element */
+	        width: 100%;
+	        height: 90%;
+	       
+	        
+	        /* Positioning elements in lines */
+	        display:  inline-block;
+	        
+	        /* This is necessary for position:absolute to work as desired */
+	        position: relative;
+	        
+	        /* Preventing zoomed images to grow outside their elements */
+	        overflow: hidden; 
+	}
+
+	.fader img {
+	            /* Stretching the images to fill whole elements */
+	            width:       100%;
+	            height:      100%;
+	        
+	            /* Preventing blank space below the image */
+	            line-height: 0;
+	    
+	            /* A one-second transition was to disturbing for me */
+	            -webkit-transition: all 0.3s ease;
+	            -moz-transition:    all 0.3s ease;
+	            -o-transition:      all 0.3s ease;
+	            -ms-transition:     all 0.3s ease;
+	            transition:         all 0.3s ease; 
+	}
+	    
+	.fader img:hover {
+	                /* Making images appear bigger and transparent on mouseover */
+	                opacity: 0.5;
+	                width:   120%;
+	                height:  120%; 
+
+	}
+
+	.fader img:click {
+		width: 200%;
+		height: 200%;
+
+
+	}
+
+
+
+
+}
+
+
+
+
+
+/*iPhone 6 plus*/
+@media all and (max-width: 420px) {
+
+	
+	.container {
+		padding-left: 0px;
+	}
+
+	.float-50 #logo {
+		width: 290px;
+		height: 150px;
+	}
+
+
+	.aboutContainer {
+		height: 1740px;
+	}
+
+
+	.aboutShowsContainer {
+		height: 1480px;
+		margin: 0 auto;
+	}
+
+	/*.aboutShowsContainer .float-50 {
+		height: 1001px;
+	}*/
+
+	.aboutShowsContainer .shows {
+		width: 100%;
+		height: 276px;
+	}
+
+	.aboutShowsContainer .float-50 .shows {
+		float: none;
+		text-align: left;
+		width: 100%;
+		height: 100%;
+		margin-top: 800px;
+		padding-left: 10px;
+		background-color: rgb(16,16,16);
+	}
+
+	.showsCol-1-3 {
+	width: 63.33%;
+	float: none;
+	
+	
+	}
+
+	.iconMidContainer {
+		margin-top: 10px;
+		width: 100%;
+		height:50%;
+	}
+
+	#homeMidSocialIcons {
+		margin-top: 190px;
+		height: 50px;
+		width: 100%;
+	}
+
+
+	.reviewContainer {
+		margin: 0 auto;
+		height: 386px;
+	}
+
+	.reviewContainer p {
+		margin-top: 10px;
+
+	}
+
+	.connectContainer {
+		height: 810px;
+	}
+
+	.connectContainer #socialIcons {
+		height: 460px;
+		margin-bottom: 15px;
+	}
+
+	.connectContainer h3 {
+		font-size: 30px;
+	}
+
+	.connectContainer .float-50 {
+		height: 441px;
+		margin: 0 auto;
+	}
+
+	.connectContainer #booking {
+		width: 100%;
+		height: 310px;
+		margin-top: 35px;
+	}
+
+	.connectContainer #booking p {
+		padding-top: 15px;
+	}
+
+	.mc-field-group #mce-EMAIL.required.email {
+		padding-left: 35px;
+	}
+
+	.mc-field-group .clear {
+		padding-top: 5px;
+	}
+
+	.showsTableContainer {
+		width: 100%;
+		height:100%;
+		
+	}
+
+	.table table-bordered {
+		width: 100%;
+	}
+
+	.videoContainer {
+		width: 100%;
+		height: 1000px;
+	}
+
+	.float-50 {
+		float: none;
+	}
+
+
+	.playerContainer h3 {
+		text-align: left;
+	}
+
+
+	.photoContainer {
+		background-color: white;
+		width: 100%;
+		height: 1208px;
+		margin-top: 75px;
+		margin-bottom: 10px;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+
+	}
+
+
+	.photoContainer .float-50 {
+		float: none;
+		width: 100%;
+
+	}
+
+	.photoContainer .clearfixCarl .float-50 {
+		padding-right: 10px;
+		width: 100%;
+		height: 75%;
+		margin-top: 5px;
+		
+
+	}
+
+	.photoContainer .clearfix .float-50 {
+		padding-right: 10px;
+		width: 100%;
+		height: 75%;
+		margin-top: 5px;
+		/*height: 170px;*/
+
+	}
+
+	.photoContainer #band img{
+		width: 100%;
+		
+		
+		
+	}
+
+
+	.photoContainer h3 {
+		font-size: 38px;
+		padding-left: 10px;
+	}
+
+
+	.fader {
+	        /* Giving equal sizes to each element */
+	        width: 100%;
+	        height: 90%;
+	       
+	        
+	        /* Positioning elements in lines */
+	        display:  inline-block;
+	        
+	        /* This is necessary for position:absolute to work as desired */
+	        position: relative;
+	        
+	        /* Preventing zoomed images to grow outside their elements */
+	        overflow: hidden; 
+	}
+
+	.fader img {
+	            /* Stretching the images to fill whole elements */
+	            width:       100%;
+	            /*height:      100%;*/
+	        
+	            /* Preventing blank space below the image */
+	            line-height: 0;
+	    
+	            /* A one-second transition was to disturbing for me */
+	            -webkit-transition: all 0.3s ease;
+	            -moz-transition:    all 0.3s ease;
+	            -o-transition:      all 0.3s ease;
+	            -ms-transition:     all 0.3s ease;
+	            transition:         all 0.3s ease; 
+	}
+	    
+	.fader img:hover {
+	                /* Making images appear bigger and transparent on mouseover */
+	                opacity: 0.5;
+	                width:   120%;
+	                height:  120%; 
+
+	}
+
+	.fader img:click {
+		width: 200%;
+		height: 200%;
+
+
+	}
+
+
+
+
+
+
+
+}
+
+
+

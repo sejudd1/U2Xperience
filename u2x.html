@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<!-- U2 Xperience -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>U2X</title>
+	<link rel='stylesheet' href='u2x.css'>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+	
+
+	<!-- Latest compiled and minified CSS -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	
+
+	<!-- font type -->
+	<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+    <script src="file://localhost/Users/stevejuddjr/Desktop/U2X/u2x.js"></script>
+
+   
+
+    <!-- Flexslider -->
+	
+	<link rel="stylesheet" href="Vendor/flexslider.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js">
+	</script>
+	<script src="Vendor/jquery.flexslider.js"></script>
+
+
+	<!-- Place in the <head>, after the three links -->
+	<script type="text/javascript" charset="utf-8">
+  	$(window).load(function() {
+    $('.flexslider').flexslider();
+  	});
+	</script>
+
+	<!-- End Script for Flexslider -->
+
+	<!-- Photo Click -->
+	<script>
+	$("#pop").on("click", function() {
+   	$('#imagepreview').attr('src', $('#band').attr('src')); // assign the image to the modal when the user clicks the enlarge link
+   	$('#imagemodal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then use the show function
+	}); 
+	</script> 
+	<!-- end photo click -->
+
+
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+<body>
+<div class='body'>
+<!-- Body Container Start -->
+	<div class = 'container'>
+	<!-- Header Container Start -->
+		<div class = 'headerContainer clearfix'>
+			<div class="logo"><a href="file://localhost/Users/stevejuddjr/Desktop/U2X/u2x.html"><img id ="logo" src="images/U2X-2015TourLogo-SML.jpg" width="280" height="150" border="0"></a>
+			<h4>A Tribute To U2</h4>
+			</div>
+
+			<header>
+				<div class="navBar clearfix">
+					<nav class = 'navbar navbar-inverse clearfix'>
+						<div class='container-fluid clearfix'>
+							
+							<div id="navbar" class="navbar-collapse collapse">
+								<ul class='nav navbar-nav'>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+                  						<ul class="dropdown-menu">
+											<li><a href="#about">About</a>
+											</li>
+											<li><a href="#video">Watch</a>
+											</li>
+											<li><a href="#listen">Listen</a>
+											</li>
+											<li><a href="#shows">Shows</a>
+											</li>
+											<li><a href="#review">Reviews</a>
+											</li>
+											<li><a href="#contact">Contact</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+									<div class='navHomeSocialIcons'>
+										<a href = "https://www.facebook.com/U2xperience" title="U2X on Facebook" alt="U2X Facebook Icon"><img src="images/facebookcircledark.png"/></a>
+										<a href="" title="IG" alt="IG Icon"><img src="images/instagramcircledark.png"/>
+										</a>
+										<a href="https://www.youtube.com/channel/UCWozuFQpnmJJPuIj-0xEhCg" title="U2Xperience on YouTube" alt="U2Xperience YouTube Icon"><img src="images/youtubecircledark.png"/>
+										</a>
+									</div>
+								
+							</div>
+						</div>		
+					</nav>
+				</div>
+			</header>
+
+		</div>
+		<!-- End Header Container -->
+
+		<!-- Flexslider Container -->
+
+		<div class = 'flexslider'>
+			<ul class = 'slides'>
+				<li> 
+					<img src = "images/U2X-2015TourLogo-SML.jpg"/>
+				</li>
+				
+				<li> 
+					<img src = "images/DSC_0110-1.jpg"/>
+				</li>
+				
+				<li> 
+					<img src = "images/CarlM-U2S.jpeg"/>
+				</li>
+
+				<li> 
+					<img src = "images/kennyu2x.jpeg"/>
+				</li>
+
+				<li> 
+					<img src = "images/IMG_6234.JPG"/>
+				</li>
+				<li> 
+					<img src = "images/IMG_5716.JPG"/>
+				</li>
+				
+				<li> 
+					<img src = "images/IMG_5623.JPG"/>
+				</li>
+				<li>
+					<img src = "images/IMG_4993.jpg"/>
+				</li>
+				<li>
+					<img src = "images/CarlKenny.JPG"/>
+				</li>
+
+
+			</ul>
+		</div>
+		
+		<!-- End Flexslider -->
+
+		<div class = 'iconContainer clearfix'>
+				
+			<div id = 'homeSocialIcons'>
+				<a href = "https://www.facebook.com/U2xperience" title="U2X on Facebook" alt="U2X Facebook Icon"><img src="images/facebookcircledark.png"/>
+				</a>
+				<a href="" title="IG" alt="IG Icon"><img src="images/instagramcircledark.png"/>
+				</a>
+				<a href="https://www.youtube.com/channel/UCWozuFQpnmJJPuIj-0xEhCg" title="U2Xperience on YouTube" alt="U2Xperience YouTube Icon"><img src="images/youtubecircledark.png"/>
+				</a>
+			</div>
+
+		</div>
+
+		<div class = 'aboutShowsContainer clearfix'>
+
+			<div class = 'grid'>
+
+				<div id="about" class = 'aboutCol-2-3 clearfix'>
+					<h3>U2<span>X</span>perience
+					</h3>
+						<p>The U2Xperience is Southern California's newest U2 tribute band and is truly one of the best sounding and most accurate U2 tribute bands in the world!
+						</p>
+
+						​<p>Bono, The Edge, Larry Mullen, Jr. and Adam Clayton are U2, the 	world’s greatest rock band. U2X delivers spectacular live recreations of U2 concerts from all eras and tours by an ensemble of four veteran U2 tribute performers who collectively have played close to 1,000 tribute shows since 2006. Long-time U2 fans themselves, each member of U2X is personally committed to recreating the most authentic, memorable U2 experience for you, your friends, guests, customers and employees.
+						</p>
+
+						<p>Like U2 itself, our performances require an incredible amount of musicianship, passion, spontaneity, interaction with the audience and mastery of modern technical tools. What you'll see and hear is performed live exactly as U2 themselves would do it.
+						</p> 
+
+						<p>The best of breed musicians in U2X have entertained tens of thousands of U2 fans locally, nationally and internationally.  Let us amaze “you too” with incredible vocals, echo-drenched guitars, thunderous drums and driving bass. You won't believe your ears or your eyes!
+						</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class = 'iconMidContainer clearfix'>
+				
+			<div id = 'homeMidSocialIcons'>
+				<a href = "https://www.facebook.com/U2Xperience" title="U2X on Facebook" alt="U2X Facebook Icon"><img src="images/facebookcircledark.png"/>
+				</a>
+				<a href="" title="IG" alt="IG Icon"><img src="images/instagramcircledark.png"/>
+				</a>
+				<a href="https://www.youtube.com/channel/UCWozuFQpnmJJPuIj-0xEhCg" title="U2Xperience on YouTube" alt="U2Xperience YouTube Icon"><img src="images/youtubecircledark.png"/>
+				</a>
+			</div>
+
+		</div>
+
+		<div id="review" class = 'reviewContainer clearfix'>
+			<h3>Reviews</h3>
+				<p>"That was really amazing. It's like U2 came and played a small venue in Temecula. So awesome!" - Patron - Uptown Tavern
+				</p>
+				<p>"Macchia likewise manipulated his axe as if he was conjuring up the very essence of The Edge."www.examiner.com - Review of AXS TV's, "World's Greatest Tribute Bands."
+				</p>
+		</div>
+
+		<div id="contact" class = 'connectContainer clearfix'>
+				
+			<div class='float-50'>
+				
+				<div id = 'socialIcons'>
+					<h3>Connect With Us</h3>
+					<a class="socialIcons" href = "https://www.facebook.com/U2Xperience" title="U2Xperience on Facebook" alt="U2Xperience Facebook Icon"><img src="images/facebookcircledark.png"/>
+					</a>
+					<a href="http://instagram.com/stevovertigo/" title="IG" alt="IG Icon"><img src="images/instagramcircledark.png"/>
+					</a>
+					<a class="socialIcons" href="https://www.youtube.com/channel/UCWozuFQpnmJJPuIj-0xEhCg" title="U2Xperience on YouTube" alt="U2Xperience YouTube Icon"><img src="images/youtubecircledark.png"/>
+					</a>
+				
+
+				<!-- Begin MailChimp Signup Form -->
+
+				<!-- <div id="mc_embed_signup"> -->
+					<form action="//u2x.us10.list-manage.com/subscribe/post?u=5c939fdc2fefcbec9671e5b1a&amp;id=dc6e004744" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					    <div id="mc_embed_signup_scroll">
+						<h2>Sign Up For The Email List</h2>
+					<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+					<div class="mc-field-group">
+						<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+					</label>
+						<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+					</div>
+					<div class="mc-field-group">
+						<label for="mce-FNAME">First Name </label>
+						<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+					</div>
+					<div class="mc-field-group">
+						<label for="mce-LNAME">Last Name </label>
+						<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+					</div>
+						<div id="mce-responses" class="clear">
+							<div class="response" id="mce-error-response" style="display:none"></div>
+							<div class="response" id="mce-success-response" style="display:none"></div>
+						</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					    <div style="position: absolute; left: -5000px;"><input type="text" name="b_5c939fdc2fefcbec9671e5b1a_dc6e004744" tabindex="-1" value=""></div>
+					    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+					    </div>
+					</form>
+				</div>
+
+				<!--End mc_embed_signup-->
+					
+
+			</div>
+
+			<div class='float-50'>
+
+				<div id = 'booking'>
+					<h3>Booking</h3>
+					<p>Contact: Carl Macchia</p>
+					<p>Phone: 949.291.0028</p>
+					<p>Email: <a id="email" href="mailto:cjmacchia@msn.com">cjmacchia@msn.com</a>
+					</p>
+					<p>PressKit: Available Upon Request</p>
+						
+				</div>
+				
+			</div>
+
+		</div>
+
+		
+
+		<div id="video" class = 'videoContainer clearfix'>
+			<div class = 'float-50'>
+				<div class = 'youtube'>
+					<h3>Watch</h3>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/8gtQh_JhlEI" frameborder="0" allowfullscreen>
+					</iframe>
+					<br>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/TDCHHUf-Xl4" frameborder="0" allowfullscreen>
+					</iframe>
+				
+				</div>
+			</div>
+
+		</div>
+
+		<div id="listen" class = 'playerContainer clearfix'>
+			<!-- <div class="float-50"> -->
+				<div class="player">
+					<h3>Listen</h3>
+					<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/199788928&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
+					</iframe>
+				</div>
+			<!-- </div> -->
+			<!-- div class="float-50">
+				<div class="poll">
+
+					    <div class="col-md-4">
+					        <div class="panel panel">
+					            <div class="panel-heading">
+					                <h3 class="panel-title"><span class="fa fa-line-chart"></span> Which U2 Tour Era Was Your Favorite?</h3>
+					            </div>
+					            <div class="panel-body">
+					                <ul class="list-group">
+					                    <li class="list-group-item">
+					                        <div class="checkbox">
+					                            <label>
+					                                <input type="checkbox" value=""> eXERIENCE + iNNONCENCE / 360 Era
+					                            </label>
+					                        </div>
+					                    </li>
+					                    <li class="list-group-item">
+					                        <div class="checkbox">
+					                            <label>
+					                                <input type="checkbox" value=""> Vertigo / Elevation ERA
+					                            </label>
+					                        </div>
+					                    </li>
+					              
+					                    <li class="list-group-item">
+					                        <div class="checkbox">
+					                            <label>
+					                                <input type="checkbox" value=""> Pop Mart / Zooropa / ZOOTV Era
+					                            </label>
+					                        </div>
+					                    </li>
+					                     <li class="list-group-item">
+					                        <div class="checkbox">
+					                            <label>
+					                                <input type="checkbox" value=""> The Joshua Tree / Unforgettable Fire Era
+					                            </label>
+					                        </div>
+					                    </li>
+					                    
+					                    <li class="list-group-item">
+					                        <div class="checkbox">
+					                            <label>
+					                                <input type="checkbox" value=""> War / October / Boy Era
+					                            </label>
+					                        </div>
+					                    </li>
+					                  
+					                </ul>
+					            </div>
+					            <div class="panel-footer text-center">
+					                <button type="button" class="btn btn btn-block btn-sm">
+					                    Vote</button>
+					                <a href="#" class="small">View Result</a>
+					            </div>
+					        </div>
+					    </div>
+				
+				</div>
+			</div> -->
+			
+		</div>
+
+		<div id="shows" class="showsTableContainer clearfix">
+		
+			<h3>Shows</h3>
+				<div class="table-responsive">
+					<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th>Date</th>
+								<th>Venue</th>
+								<th>Location</th>
+								<th>Details</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>10/24/15</td>
+								<td>UpTown Tavern</td>
+								<td>Temecula, CA</td>
+								<td>8pm<a href="http://www.uptowntaverntemecula.com/"> Event Info</a></td>
+							</tr>
+							<tr>
+								<td>9/26/15</td>
+								<td>UpTown Tavern</td>
+								<td>Temecula, CA</td>
+								<td>8pm<a href="http://www.uptowntaverntemecula.com/"> Event Info</a></td>
+							</tr>
+							<tr>
+								<td>8/22/15</td>
+								<td>Concert In The Park</td>
+								<td>Fullerton, CA</td>
+								<td>3pm- Event Info-Coming Soon</td>
+							</tr>
+							<tr>
+								<td>6/20/15</td>
+								<td>The Shamrock Irish Pub</td>
+								<td>Murrieta, CA</td>
+								<td>8pm- Event Info</td>
+							</tr>
+							<tr>
+								<td>6/13/15</td>
+								<td>The Shamrock Irish Pub</td>
+								<td>Murrieta, CA</td>
+								<td>8pm-Event Info</td>
+							</tr>
+							<tr>
+								<td>5/23/15</td>
+								<td>The Shamrock Irish Pub</td>
+								<td>Murrieta, CA</td>
+								<td>8pm- Event Info</td>
+							</tr>
+							<tr>
+								<td>4/10/15</td>
+								<td>The Shamrock Irish Pub</td>
+								<td>Murrietta, CA</td>
+								<td>10pm- No Cover-<a href="http://www.theshamrockirishpubandeatery.com/category/news/"> Event Info</a></td>
+							</tr>
+							<tr>
+								<td>3/21/15</td>
+								<td>Stillwater</td>
+								<td>Dana Point, CA</td>
+								<td>9pm- No Cover<a href="http://danapointstillwater.com/v2014/calendar/"> Event Info</a></td>
+							</tr>
+							<tr>
+								<td>3/17/15</td>
+								<td>Uptown Tavern</td>
+								<td>Temecula, CA</td>
+								<td>9pm<a href="uptowntaverntemecula.com"> Event Info</a></td>
+							</tr>
+							<tr>
+								<td>2/24/15</td>
+								<td>HARD ROCK HOTEL SAN DIEGO-Team Makena Corporate Event</td>
+								<td>San Diego, CA</td>
+								<td>10pm- BONO and EDGE ACOUSTIC SHOW-<a href="hardrockhotelsd.com"> Private Event</a></td>
+							</tr>
+							<tr>
+								<td>2/20/15</td>
+								<td>The Shamrock Irish Pub</td>
+								<td>Murrietta, CA</td>
+								<td>8pm- No Cover-<a href="http://www.theshamrockirishpubandeatery.com/category/news/"> Event Info</a></td>
+							</tr>
+							<tr>
+								<td>1/17/15</td>
+								<td>Uptown Tavern</td>
+								<td>Temecula, CA</td>
+								<td>8pm <a href="uptowntaverntemecula.com"> Event Info</a></td>
+							</tr>
+							<tr>
+								<td>1/10/15</td>
+								<td>Stillwater</td>
+								<td>Dana Point, CA</td>
+								<td>8pm-<a href="http://danapointstillwater.com/v2014/calendar/">  Event Info</a></td>
+							</tr>
+							<tr>
+								<td>1/2/15</td>
+								<td>The Merrow</td>
+								<td>San Diego, CA</td>
+								<td>9pm- $6 Cover-<a href="themerrow.com"> Event Info</a></td>
+							</tr>
+						</tbody>
+						
+					</table>
+				</div>
+					
+		</div>
+
+
+		<div id="photo" class = 'photoContainer clearfix'>
+			<h3>Photos</h3>
+			<div class = "clearfixCarl">
+				<div class="float-50">
+					<div class="fader">
+						<a href="#" id="pop">
+					 		<img id="band" src="images/U2X-2015TourLogo-SML.jpg">
+					 	
+						</a>
+					</div>
+				</div>
+
+				<div class="float-50">
+					<div class="fader">
+					<a href="images/CarlKenny.JPG" id="pop">
+					 	<img id="band" src="images/CarlKenny.JPG" alt="CarlKenny">
+					</a>
+					</div>
+				</div>
+			</div>
+			<div class = "clearfixCarl">
+				<div class="float-50">
+					<div class="fader">
+						<a href="images/CarlM-U2S.jpeg" id="pop">
+					 	<img id="band" src="images/CarlM-U2S.jpeg" alt="Carl">
+						</a>
+					</div>
+				</div>
+
+				<div class="float-50">
+					<div class="fader">
+					<a href="images/kennyu2x.jpeg" id="pop">
+					 	<img id="band" src="images/kennyu2x.jpeg" alt="Kenny">
+					</a>
+					</div>
+				</div>
+			</div>
+			<div class = "clearfixCarl">
+				<div class="float-50">
+					<div class="fader">
+					 <a href="images/IMG_6234.JPG" id="pop">
+					 	<img id="band" src="images/IMG_6234.JPG" alt="Oryan">
+					 </a>
+					 </div>
+				</div>
+
+				<div class="float-50">
+					<div class="fader">
+					<a href="images/IMG_5716.JPG" id="pop">
+					 	<img id="band" src="images/IMG_5716.JPG" alt="Band">
+					</a>
+					</div>
+				</div>
+			</div>
+			<!-- Creates the bootstrap modal where the image will appear -->
+			<div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			        <h4 class="modal-title" id="myModalLabel">Image preview</h4>
+			      </div>
+			      <div class="modal-body">
+			        <img src="" id="imagepreview" style="width: 400px; height: 264px;" >
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+
+
+		<footer>
+			<div class = 'footerContainer clearfix'>
+				<div class = 'float-50'>
+					<div class = 'footerlogo'>
+						<h1>U2<a href="file://localhost/Users/stevejuddjr/Desktop/U2X/u2x.html">Xperience.com</a>
+						</h1>
+						<h4>A Tribute To U2</h4>
+					</div>
+				</div>
+
+				<div class = 'float-50'>
+					<div id = 'footerNav'>	
+						<a href = "https://www.facebook.com/U2Xperience" title="U2Xperience on Facebook" alt="U2Xperience Facebook Icon"><img src="images/facebookcircledark.png"/>
+						</a>
+						<a href="http://instagram.com/stevovertigo/" title="IG" alt="IG Icon"><img src="images/instagramcircledark.png"/>
+						</a>
+						<a href="https://www.youtube.com/channel/UCWozuFQpnmJJPuIj-0xEhCg" title="U2Xperience on YouTube" alt="U2Xperience YouTube Icon"><img src="images/youtubecircledark.png"/>
+						</a>
+
+					</div>
+				</div>
+					
+				<br>
+				<div class="footerbar clearfix">
+					<nav class = 'navbar navbar-inverse'>
+					<div class='container-fluid'>
+						<!-- <div class='navbar-header'>
+							<a class='navbar-brand' href="file://localhost/Users/stevejuddjr/Desktop/U2X/u2x.html">Home</a>
+						</div> -->
+						<div>
+							<ul class='nav navbar-nav'>
+								<li> <a href="file://localhost/Users/stevejuddjr/Desktop/U2X/u2x.html">Home</a>
+								</li>
+								<li><a href="#">About</a>
+								</li>
+								<li><a href="file://localhost/Users/stevejuddjr/Desktop/U2X/u2xshows.html">Shows</a>
+								</li>
+								<li><a href="file://localhost/Users/stevejuddjr/Desktop/U2X/u2xcontact.html">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>		
+					</nav>
+
+					<p> U2Xperience Copyright © 2015 | Contact: 949.291.0028 | Email:<a href="mailto:cjmacchia@msn.com">cjmacchia@msn.com</a>
+					</p>
+				</div>
+			
+			</div>
+		</footer>
+
+
+
+
+
+	</div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
