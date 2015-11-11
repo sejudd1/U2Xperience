@@ -1,0 +1,23 @@
+{
+  "name": "u2x",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sejudd1/U2Xperience.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sejudd1/U2Xperience/issues"
+  },
+  "homepage": "https://github.com/sejudd1/U2Xperience#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
